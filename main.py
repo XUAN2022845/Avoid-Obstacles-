@@ -68,7 +68,7 @@ while True:
         sys.exit()
     
 
-    # 5. Draw everything
+    # 5. Image
     screen.fill(WHITE)
     screen.blit(player_img, player_rect)
     screen.blit(obstacle_img, obstacle)
@@ -76,4 +76,5 @@ while True:
     screen.blit(text, (10, 10))
     pygame.display.flip()
     clock.tick(60)
+
 
